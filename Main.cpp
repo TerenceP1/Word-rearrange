@@ -22,4 +22,11 @@ int main(){
         }
         nd->isW=true;
     }
+    cout<<"binary search tree creation completed!\n";
+    while (true){
+        cout<<"type a sentance: ";
+        cin.ignore();
+        string st;
+        getline(cin,st,'\n');
+    }
 }
