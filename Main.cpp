@@ -14,6 +14,7 @@ int main(){
         wTree* nd=wds;
         for (int i=0;i<tmp.length();i++){
             if (!nd->hNode[tmp[i]-'a']){
+                nd->hNode[tmp[i]-'a']=true;
             }
         }
     }
